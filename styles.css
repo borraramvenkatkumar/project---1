@@ -1,0 +1,161 @@
+/* global styles*/
+html{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+*,*::before,*::after{
+     box-sizing:inherit;
+     margin:0;
+}
+.content-wrapper{
+    margin:0 auto;
+    max-width: 900px;
+}
+body{
+    background-color: whitesmoke;
+
+}
+a{
+   color: green;
+}
+a:hover{
+    color:rgb(133, 113, 68);
+}
+.btn{
+    background-color: darkgreen;
+    color:bisque;
+    text-decoration: none;
+}
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    
+}
+
+
+
+
+
+/*index */
+.home{
+background: url(images/bg-home-office-studio.jpg) no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+
+}
+.home .content-wrapperr{
+    
+    margin:0 auto;
+    max-width: 900px;
+    padding: 30px;
+    flex:0 auto;
+
+
+}
+.home .content-bg{
+    padding: 30px;
+    background: gainsboro;
+}
+
+
+/*resume */
+.resume header ::before{
+    background: url(images/bg-home-office-studio.jpg)  center/cover no-repeat;
+    content:"";
+    display:block;
+    height:375px;
+
+
+
+
+}
+.resume-section{
+    margin-bottom: 50px;
+}
+.resume-section h2{
+    border-bottom: 2px dashed rgb(227, 213, 213);
+
+}
+.download-link{
+    position:fixed;
+    top:5px;
+    left:5px;
+}
+
+/* profile*/
+
+/*projects */
+.project-item img{
+    float:left;
+    width: 300px;
+    margin-right: 20px;
+
+
+}
+.project-item{
+    display:flow-root;
+    margin-block: 30px;
+}
+
+/*work experience */
+.work-section img{
+    float:left;
+    width:300px;
+    margin-right: 20px;
+
+
+}
+.work-section{
+    
+    display:flow-root;
+    margin-block: 30px;
+}
+/*education */
+
+/*foote */
+footer{
+    background-color: rgb(51, 48, 48);
+    color:#d3d4d6;
+}
+footer a{
+   color: rgb(216, 239, 101);
+}
+a:hover{
+    color: beige;
+}
+.socials{
+    list-style-type:none;
+    padding: 0;
+
+}
+.socials img{
+    width:32px;
+}
+.socials li{
+    display: inline-block;
+    top:20px;
+}
+/* Ensure full height layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;
+}
+
+footer {
+  background-color: #3a1616;  /* or your desired color */
+  padding: 10px;
+  text-align: center;
+}
+
+
+/**/
